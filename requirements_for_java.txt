@@ -1,0 +1,19 @@
+we used:
+
+    /*TOOLS WE USED*/
+    iwlist 
+    sort
+    grep
+    uniq
+    tshark
+    
+
+    /* TO DO TO CAPTURE PACKET AND FIND AVERAGE PACKET SIZE*/
+    tshark -D
+    tshark -i 2 -a duration:10 -w 10sec.pcap
+    tshark -nr 10sec.pcap -T fields -e frame.len | sort -n |uniq -c
+
+    /* PROBLEMS */ 
+    problem with wifi adapter driver 
+    need to install driver at https://github.com/quickreflex/rtl8188eus.git
+    
