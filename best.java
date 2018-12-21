@@ -1,4 +1,10 @@
 
+
+
+/*
+*	Created by John Arno
+*	Created at 21/12/2018
+*/
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -10,7 +16,7 @@ import java.util.ArrayList;
 public class best {
 
     private static ArrayList<String> interfaces = new ArrayList();
-    private static String password = "4195rqot4195";
+    private static String password = "";
     private static String channel;
 
     public static void main(String[] args) {
